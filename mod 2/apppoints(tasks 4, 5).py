@@ -45,23 +45,5 @@ def max_number(numbers):
     return response
 
 
-@app.route('/preview/<int:size>/<path:relative_path>')
-def preview(size, relative_path):
-    try:
-        current_directory = os.getcwd()
-        abs_path = os.path.join(current_directory, relative_path)
-
-        with open(abs_path, 'r') as file:
-            content = file.read(size)
-
-        result_size = len(content)
-        result_text = content.replace('\n', '<br>')
-
-        return f'{abs_path} {result_size}<br>{result_text}'
-
-    except Exception as e:
-        return f"error {str(e)}", 500
-
-
 if __name__ == '__main__':
-    app.run(port=5555, debug=True)
+    app.run(debug=True)
