@@ -1,5 +1,5 @@
 import subprocess
-
+import shlex
 from flask import Flask, request
 from typing import List, Optional
 from flask_wtf import FlaskForm
@@ -56,12 +56,23 @@ def registration():
 @app.route('/uptime/', methods=['GET'])
 def get_uptime():
     try:
-        # Выполняем команду uptime с помощью subprocess
         result = subprocess.run(['uptime', '-p'], stdout=subprocess.PIPE, text=True)
         uptime_output = result.stdout.strip()
         return f"Current uptime is {uptime_output}"
     except Exception as e:
         return f"Error getting uptime: {e}"
+
+
+@app.route('/ps/', methods=['GET'])
+def execute_ps():
+    try:
+        args: List[str] = request.args.getlist('arg')
+        clean_args = [shlex.quote(arg) for arg in args]
+        cmd = ['ps'] + clean_args
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, text=True)
+        return f'<pre>{result.stdout}</pre>'
+    except Exception as e:
+        return f'Ошибка в исполнении команды ps: {e}'
 
 
 if __name__ == '__main__':

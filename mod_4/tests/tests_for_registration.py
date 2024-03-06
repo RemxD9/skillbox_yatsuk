@@ -1,5 +1,5 @@
 import unittest
-from skillbox_yatsuk.mod_4.task1_2 import app
+from skillbox_yatsuk.mod_4.task1_2_4_5 import app
 
 
 class RegistrationFormTestCase(unittest.TestCase):
