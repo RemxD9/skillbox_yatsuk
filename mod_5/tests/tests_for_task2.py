@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
     def test_timeout_below_execution_time(self):
         # Тест на случай, когда тайм-аут меньше времени выполнения
         data = {
-            'code': 'import time\nprint("Start")\ntime.sleep(5)\nprint("Finish")',
+            'code': f"import time\nprint('Start')\ntime.sleep(5)\nprint('Finish')",
             'timeout': 2
         }
         response = self.app.post('/execute_code', data=data)
