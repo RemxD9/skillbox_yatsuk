@@ -1,0 +1,3 @@
+
+<RootLogger root (INFO)>
+[('__main__', <Logger __main__ (INFO)>, []), ('utils', <Logger utils (INFO)>, [])]

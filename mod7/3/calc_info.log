@@ -1,0 +1,12 @@
+INFO | __main__ | 2024-03-20 19:30:04 | 10 | Starting calculation
+INFO | utils | 2024-03-20 19:30:04 | 24 | Adding 5 and 3
+INFO | __main__ | 2024-03-20 19:30:04 | 12 | Result of addition: 8
+INFO | utils | 2024-03-20 19:30:04 | 29 | Subtracting 4 from 10
+INFO | __main__ | 2024-03-20 19:30:04 | 14 | Result of subtraction: 6
+INFO | __main__ | 2024-03-20 19:30:04 | 15 | Calculation completed
+INFO | __main__ | 2024-03-20 20:28:18 | 10 | Starting calculation
+INFO | utils | 2024-03-20 20:28:18 | 24 | Adding 5 and 3
+INFO | __main__ | 2024-03-20 20:28:18 | 12 | Result of addition: 8
+INFO | utils | 2024-03-20 20:28:18 | 29 | Subtracting 4 from 10
+INFO | __main__ | 2024-03-20 20:28:18 | 14 | Result of subtraction: 6
+INFO | __main__ | 2024-03-20 20:28:18 | 15 | Calculation completed
