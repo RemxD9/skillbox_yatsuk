@@ -21,8 +21,8 @@ def total_memory_usage(root_pid: int) -> float:
     return memory_usage
 
 
-username = "username"
+username = "rem"
 print("Количество процессов:", process_count(username))
 
-root_pid = 12345
+root_pid = 892
 print("Суммарное потребление памяти:", total_memory_usage(root_pid), "%")
