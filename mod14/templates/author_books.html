@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Books by {{ author }}</title>
+</head>
+<body>
+    <h1>Books by {{ author }}</h1>
+    <ul>
+        {% for book in books %}
+        <li>{{ book.author }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

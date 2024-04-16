@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Books under number {{ id }}</title>
+</head>
+<body>
+    <h1>Books #{{ id }}</h1>
+    <ul>
+        {% if books %}
+            {% for book in books %}
+                <li>Author: {{ book.id }}</li>
+                <li>Title: {{ book.author }}</li>
+                <li>View count: {{ book.view_count }}</li>
+            {% endfor %}
+        {% else %}
+            <li>There is no book with that number {{ id }}</li>
+        {% endif %}
+    </ul>
+</body>
+</html>
