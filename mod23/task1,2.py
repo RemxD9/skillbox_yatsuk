@@ -82,6 +82,7 @@ def say_hello_with_name(name):
 
 
 if __name__ == '__main__':
+    # permission denied on staticfiles I don't know why
     httpd = make_server('', 5000, app)
     print("Serving on port 8000...")
     httpd.serve_forever()
