@@ -1,0 +1,5 @@
+name;surname;phone;email;average_score;scholarship
+John;Doe;123456789;john@example.com;4.5;True
+Jane;Smith;987654321;jane@example.com;3.8;False
+Alice;Johnson;555555555;alice@example.com;4.2;True
+Bob;Brown;111111111;bob@example.com;4.0;False
