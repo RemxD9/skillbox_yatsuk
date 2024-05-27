@@ -1,0 +1,25 @@
+2024/05/27 23:49:12 [error] 7364#4340: *1 CreateFile() "C:\Users\acer\Desktop\nginx-1.25.5/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2024/05/28 00:43:11 [emerg] 2820#7528: unexpected "}" in C:\nginx/conf/nginx.conf:19
+2024/05/28 00:45:27 [alert] 7872#13212: *1024 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.0", upstream: "http://127.0.0.1:5000/hello", host: "127.0.0.1"
+2024/05/28 00:45:36 [alert] 7872#13212: *2047 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.0", upstream: "http://127.0.0.1:5000/hello", host: "127.0.0.1"
+2024/05/28 00:46:57 [alert] 7872#13212: *3071 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.0", upstream: "http://127.0.0.1:5000/hello", host: "127.0.0.1"
+2024/05/28 00:49:44 [emerg] 12028#13172: CreateDirectory() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23\nginx/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/05/28 00:50:08 [emerg] 12440#6712: CreateFile() "C:/path/to/your_project/nginx/logs/access.log" failed (3: The system cannot find the path specified)
+2024/05/28 00:50:47 [emerg] 9768#11120: CreateFile() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23
+ginx/logs/error.log" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2024/05/28 00:50:57 [emerg] 9020#1416: CreateFile() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23
+ginx/logs/error.log" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2024/05/28 00:51:31 [emerg] 6988#10156: CreateFile() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23
+ginx/logs/error.log" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2024/05/28 00:52:04 [emerg] 6724#9732: CreateFile() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23
+ginx/logs/access.log" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2024/05/28 00:52:37 [emerg] 1288#9576: CreateFile() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23
+ginx\logs\access.log" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2024/05/28 00:53:25 [emerg] 8772#10052: CreateFile() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23
+ginx\logs\access.log" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2024/05/28 00:58:30 [notice] 9432#4424: signal process started
+2024/05/28 01:02:57 [notice] 7328#8068: signal process started
+2024/05/28 01:03:15 [emerg] 7520#11016: CreateDirectory() "C:\Users\acer\PycharmProjects\pythonProject4\skillbox_yatsuk\mod23\nginx/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/05/28 01:03:15 [alert] 13332#8900: worker process 7520 exited with code 1
+2024/05/28 01:03:15 [alert] 13332#8900: could not respawn worker
+2024/05/28 01:03:57 [alert] 12208#10668: *1024 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.0", upstream: "http://127.0.0.1:5000/hello", host: "127.0.0.1"
